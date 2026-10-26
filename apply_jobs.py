@@ -12,7 +12,7 @@ import csv
 
 driver_path = r"C:\Users\Shivam\Desktop\JobSailor-main\geckodriver.exe"
 binary =  r"C:\Program Files\Mozilla Firefox\firefox.exe" # Specify the path to the Firefox binary
-profile_path = "C:\Users\Shivam\AppData\Roaming\Mozilla\Firefox\Profiles\e1d25ifs.default-release"
+profile_path = r"C:\Users\Shivam\AppData\Roaming\Mozilla\Firefox\Profiles\e1d25ifs.default-release"
 
 service = Service(driver_path)
 
